@@ -1,0 +1,10 @@
+# Quick Start
+
+## Verify a snapshot
+python verifier.py verify examples/snapshot.example.json
+
+## Seal an epoch
+python verifier.py seal examples/snapshot.example.json examples/epoch.example.json 1
+
+## Check an epoch
+python verifier.py check examples/epoch.example.json
